@@ -1,0 +1,62 @@
+# BouabidTransfer - Production Dependencies
+# Python 3.9+ required
+
+# Core iOS Device Communication
+pymobiledevice3>=2.0.0  # Modern iOS device communication library
+libimobiledevice-python>=0.9.9  # Alternative iOS communication (backup)
+
+# USB Communication
+pyusb>=1.2.1  # Direct USB device access
+usb.core>=0.1  # USB core functionality
+
+# Network Communication
+requests>=2.31.0  # HTTP requests for Wi-Fi transfer
+aiohttp>=3.9.0  # Async HTTP client/server
+zeroconf>=0.131.0  # mDNS/Bonjour service discovery
+
+# Bluetooth Communication
+pybluez>=0.23  # Bluetooth communication (Windows compatible)
+bleak>=0.21.0  # Modern BLE support
+
+# GUI Framework
+PyQt5>=5.15.10  # Professional desktop UI framework
+PyQt5-Qt5>=5.15.2
+PyQt5-sip>=12.13.0
+
+# Data Processing & Integrity
+Pillow>=10.1.0  # Image processing (HEIC support via pillow-heif)
+pillow-heif>=0.13.0  # HEIC/HEIF image format support
+cryptography>=41.0.7  # Checksum and security
+hashlib-compat>=1.0.1  # Hash algorithms
+
+# File Operations
+pathlib2>=2.3.7  # Enhanced path operations
+watchdog>=3.0.0  # File system monitoring
+
+# Async & Threading
+asyncio>=3.4.3  # Built-in async support
+concurrent-futures>=3.1.1  # Thread pool executor
+
+# Logging & Configuration
+pyyaml>=6.0.1  # Configuration files
+colorlog>=6.8.0  # Colored logging output
+
+# Performance & Optimization
+psutil>=5.9.6  # System resource monitoring
+tqdm>=4.66.1  # Progress bars (for CLI fallback)
+
+# Windows Specific
+pywin32>=306  # Windows API access
+wmi>=1.5.1  # Windows Management Instrumentation
+
+# Testing (Development)
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+pytest-qt>=4.2.0
+
+# Packaging
+pyinstaller>=6.2.0  # Executable creation
+cx-Freeze>=6.15.0  # Alternative packaging tool
+
+
+
