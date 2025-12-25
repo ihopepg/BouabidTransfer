@@ -34,8 +34,4 @@ The app uses a modular **Layered Architecture**:
 - Python 3.11 or higher
 - [iTunes](https://www.apple.com/itunes/) installed (for Apple Mobile Device Drivers)
 
-### Installation
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/YourUsername/BouabidTransfer.git](https://github.com/YourUsername/BouabidTransfer.git)
-   cd BouabidTransfer
+
